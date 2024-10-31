@@ -5,17 +5,10 @@ b=34
 print(a+b)
 c=100
 
+name= "Abdullah Nazmus-Sakib"
+value=30
+value1=3.6
 
-def sum ( a,b ):
-    """_summary_
-
-    Args:
-        a (_type_): _description_
-        b (_type_): _description_
-
-    Returns:
-        _type_: _description_
-    """
-    return a+b
-
-sun()
+print(type(name))
+print(type(value1))
+print(type(value1))
