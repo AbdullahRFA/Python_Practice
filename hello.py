@@ -12,3 +12,6 @@ value1=3.6
 print(type(name))
 print(type(value1))
 print(type(value1))
+
+lst=["programming","programming","digit"]
+print(list(set(lst)))
