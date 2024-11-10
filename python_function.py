@@ -64,3 +64,12 @@
 
 # my_function(3)
 
+
+
+
+
+def recursion(n):
+    return 1 if n==0 else n*recursion(n-1)
+print(recursion(5))
+
+    
