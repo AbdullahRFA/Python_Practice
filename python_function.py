@@ -68,8 +68,21 @@
 
 
 
-def recursion(n):
-    return 1 if n==0 else n*recursion(n-1)
-print(recursion(5))
+# def recursion(n):
+#     return 1 if n==0 else n*recursion(n-1)
+# print(recursion(5))
+
+def myfunc(n):
+    # """
+    # The function sorts a list of numbers based on their distance from the number 50.
+    
+    # :param n: In the given code snippet, the function `myfunc(n)` calculates the absolute difference between the input `n` and the number 50. The list `thislist` contains some numbers, and it is sorted based on the key function `myfunc`, which means the numbers in the list will
+    # :return: The `thislist` is being sorted based on the absolute difference between each element and the number 50. The sorted list will be `[50, 65, 23, 82, 100]`.
+    # """
+  return abs(n - 50)
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(key = myfunc)
+print(thislist) 
 
     
