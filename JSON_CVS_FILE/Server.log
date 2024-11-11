@@ -1,0 +1,15 @@
+2024-11-08 12:34:56,789 - DEBUG - This is a debug message.
+2024-11-08 12:34:56,789 - INFO - This is an info message.
+2024-11-08 12:34:56,789 - WARNING - This is a warning message.
+2024-11-08 12:34:56,789 - ERROR - This is an error message.
+2024-11-08 12:34:56,789 - CRITICAL - This is a critical message.
+2024-11-08 12:35:01,123 - DEBUG - Debugging the application initialization.
+2024-11-08 12:35:02,456 - INFO - User login successful.
+2024-11-08 12:35:03,789 - WARNING - Disk space running low.
+2024-11-08 12:35:04,012 - ERROR - File not found in the specified directory.
+2024-11-08 12:35:05,345 - CRITICAL - System shutdown due to overheating.
+2024-11-08 12:35:06,678 - DEBUG - Session data successfully loaded.
+2024-11-08 12:35:07,910 - INFO - Data backup completed.
+2024-11-08 12:35:09,123 - WARNING - High memory usage detected.
+2024-11-08 12:35:10,456 - ERROR - Network connection failed.
+2024-11-08 12:35:11,789 - CRITICAL - Application crashed unexpectedly.
