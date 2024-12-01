@@ -9,6 +9,10 @@ class person:
         print(f"Name : {self.name}")
         print(f"Department : {self.dept}")
         print(f"Employee NO : {self.count}")
+    # static method that does not need instance to be called
+    @staticmethod
+    def show_employee():
+        print(f"\nNumber of employee : {person.counter}")
         
         
 p1=person('Abdullah','CSE')
@@ -20,4 +24,7 @@ print()
 p2.display()
 print()
 p3.display()
+
+person.show_employee()
+
 
