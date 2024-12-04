@@ -6,14 +6,17 @@ Key Components
 1. List Initialization
 Creates a list numbers containing both positive and negative integers
 Contains 10 elements ranging from -10 to 9
+
 2. Square of Elements
 Uses map() with a lambda function to square each element
 Transforms the original list by applying x ** 2 to each number
 Stores result in square_all_elements
+
 3. Positive Number Filtering
 Employs filter() with a lambda function to extract positive numbers
 Selects only elements greater than zero
 Stores result in positive_number
+
 4. Absolute Value Sorting
 Utilizes sorted() with a lambda function as the key
 Sorts the list based on the absolute value of each number
