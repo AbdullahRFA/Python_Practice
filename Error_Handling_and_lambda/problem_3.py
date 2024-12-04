@@ -30,9 +30,19 @@ Sort lists using custom criteria
 '''
 
 
+
 # Given List
 numbers = [1,-2,3,-4,5,-6,7,-8,9,-10]
-#  Q-1
+
+# Traditional Way
+# temp=[]
+# for x in numbers:
+#     square = x ** 2
+#     temp.append(square)
+# print("Square of all elements = ",temp) 
+
+
+# Efficient Way
 square_all_elements = list(map(lambda x:x ** 2,numbers))
 print("Square of all elements = ",square_all_elements)
 
